@@ -1,0 +1,19 @@
+body {
+    padding: 10px;
+  }
+  
+  input {
+    margin: 5px;
+  }
+
+  div {
+    margin: 5px;
+  }
+
+  .stretch {
+    width: 100%;
+  }
+
+  .fixedHeight {
+    height: 150px;
+  }

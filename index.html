@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    rel="stylesheet"
+    type="text/css"
+  />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <form>
+            <fieldset>
+                <legend>New Message</legend>
+                <div>
+                    <label for="name">Name:</label>
+                    <input class="stretch" type="text" name="name" id="name" placeholder="Full Name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input class="stretch" type="text" name="email" id="email" placeholder="Example@website.com" required>
+                </div>
+               
+                <div>
+                     <div class="select">
+                    <label for="fonts">Choose a font:</label>
+                    <select name="fonts" id="fonts" size="1" required>
+                      <option value="" disabled selected hidden>Please Select a Font</option>
+                      <option value="arial">Arial</option>
+                      <option value="times">Times New Roman</option>
+                      <option value="comicsans">Comic Sans</option>
+                      <option value="papyrus">Papyrus</option>
+                    </select>
+                  </div>
+                    <label for="form-message">Your Message:</label>
+                    <textarea class="stretch fixedHeight" id="form-message" name="message" required
+                    ></textarea>
+                </div>
+                <div>
+                    <button type="submit">Submit</button> 
+                </div>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
